@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "46693390312",
+    "firebase_url": "https://mbtitalk-37b5b-default-rtdb.firebaseio.com",
+    "project_id": "mbtitalk-37b5b",
+    "storage_bucket": "mbtitalk-37b5b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46693390312:android:85bad9f81768941cf7b65d",
+        "android_client_info": {
+          "package_name": "com.answere2022.mbtitalk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "46693390312-98q7thpub5141tioaqoebt33gqqf9qgl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGCr8eKIY6OJAjpKik3xM2Tiqat297Tuc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "46693390312-98q7thpub5141tioaqoebt33gqqf9qgl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
