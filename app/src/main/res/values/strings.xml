@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">mbtitalk</string>
+
+    <string name="facebook_app_id">502459528324214</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">4e6f2d23800514e3a92123346714c2c2</string>
 </resources>

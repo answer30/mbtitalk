@@ -25,7 +25,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
-        android:hint="PW"
+        android:hint="PW(최소6글자이상)"
 
         app:layout_constraintTop_toBottomOf="@+id/idEditText"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -50,4 +50,15 @@
         android:layout_marginTop="30dp"
         app:layout_constraintTop_toBottomOf="@+id/pwEditText"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/facebookLoginButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginButton"
+        android:layout_marginTop="30dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

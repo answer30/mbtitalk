@@ -24,9 +24,11 @@ class MainActivity : AppCompatActivity() {
         super.onStart()
 
         //로그인이 안되있을시 로그인 액티비티로 이동
-        if(auth.currentUser == null)
+        if(auth.currentUser == null) {
             startActivity(Intent(this, LoginActivity::class.java))
-
+        }else{
+            startActivity(Intent(this, LikeActivity::class.java))
+        }
     }
 
 }
